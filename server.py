@@ -7,7 +7,10 @@ def render_table():
         {'first_name' : 'Michael', 'last_name' : 'Choi'},
         {'first_name' : 'John', 'last_name' : 'Supsupin'},
         {'first_name' : 'Mark', 'last_name' : 'Guillen'},
-        {'first_name' : 'KB', 'last_name' : 'Tonel'}
+        {'first_name' : 'Kathleen', 'last_name' : 'Kavanagh'},
+        {'first_name' : 'Nicholas', 'last_name' : 'Bowman'},
+        {'first_name' : 'Dennis', 'last_name' : 'Kavanagh'},
+        {'first_name' : 'Malcolm', 'last_name' : 'Bowman'}
     ]
     return render_template("table.html", user_info = users)
 
